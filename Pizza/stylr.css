@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+    /* width: 99vw; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 12px;
+    padding: 12px;
+}
+
+.ha {
+    text-decoration: none;
+    color: grey;
+}
+
+.ha:hover {
+    text-decoration: underline gray;
+}
+
+.navbar a img {
+    width: 200px;
+}
+
+header {
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+}
+
+.hmm {
+    background-image: url(assets/pizzz.jpg);
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+}
+
+.mid {
+    text-align: center;
+    margin-top: 25px;
+    padding: 12px;
+}
+
+.mid h1 {
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding-bottom: 12px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    align-items: center;
+    color: white;
+}
+
+.image1 {
+    width: 40%;
+    height: 50%;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding: 8px;
+}
+
+.mid button {
+    background-color: rgb(40, 151, 15);
+    color: white;
+    width: 80%;
+    /* height: 40px; */
+    margin: 12px;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: large;
+}
+
+.mid button:hover {
+    background-color: green;
+}
+
+footer {
+    background-color: black;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hh {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.logo {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.logo img {
+
+    background-color: black;
+    width: 145px;
+    padding: 12px;
+}
+
+.list {
+    color: white;
+    max-width: 20vw;
+    padding: 2px;
+}
+
+.hh {
+    max-width: 100%;
+    justify-content: space-evenly;
+}
+
+.help {
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 4px;
+}
+
+.help button {
+    color: black;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 8px;
+}
+
+.help img {
+    padding: 2px;
+}
+
+.help h5 {
+    padding: 2px;
+    margin-left: 8px;
+    
+}
+
+.helpp {
+    display: flex;
+}
+
+.last {
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 50px;
+}
+
+.last img {
+    width: 72px;
+}
+
+/* End */
